@@ -9,16 +9,16 @@
         "class" : "Label",
         "attributes" : {
           "flex" : "WB",
-          "font_size" : 36,
+          "name" : "label1",
           "frame" : "{{73, 176}, {150, 32}}",
           "uuid" : "27ED582C-46DD-42FA-A085-8532D52ECBEB",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Extract Zip File",
-          "name" : "label1",
+          "font_size" : 36,
           "font_name" : "<System>"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
@@ -28,13 +28,13 @@
         "class" : "Label",
         "attributes" : {
           "flex" : "WB",
-          "font_size" : 18,
+          "name" : "label2",
           "frame" : "{{73, 176}, {150, 32}}",
           "uuid" : "513D4DDF-38B8-4B0D-9BFD-A5EB86FCE718",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Extract zip to:",
-          "name" : "label2",
+          "font_size" : 18,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -89,38 +89,17 @@
         "nodes" : [
 
         ],
-        "frame" : "{{6, 177}, {346, 32}}",
-        "class" : "TextField",
-        "attributes" : {
-          "flex" : "WB",
-          "placeholder" : "Destination Directory",
-          "name" : "tf",
-          "frame" : "{{83, 191}, {200, 32}}",
-          "spellchecking_type" : "default",
-          "class" : "TextField",
-          "uuid" : "2F91C1B9-4E19-477C-AC57-DFC71389D6DB",
-          "alignment" : "left",
-          "autocorrection_type" : "default",
-          "font_size" : 17,
-          "font_name" : "<System>"
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
         "frame" : "{{6, 57}, {346, 32}}",
         "class" : "Label",
         "attributes" : {
           "flex" : "WB",
-          "name" : "label4",
+          "font_size" : 18,
           "frame" : "{{108, 191}, {150, 32}}",
           "uuid" : "3D1BFAE7-3C33-4D1F-B893-1625C5AA1DF5",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Zip file name:",
-          "font_size" : 18,
+          "name" : "label4",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -141,8 +120,8 @@
           "uuid" : "2F91C1B9-4E19-477C-AC57-DFC71389D6DB",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "name" : "zip",
-          "font_size" : 17
+          "font_size" : 17,
+          "name" : "zip"
         },
         "selected" : false
       },
@@ -170,26 +149,47 @@
         "class" : "Label",
         "attributes" : {
           "flex" : "WB",
-          "font_size" : 18,
+          "name" : "label5",
           "frame" : "{{108, 191}, {150, 32}}",
           "uuid" : "9D695EF3-440E-49AE-9C11-D2840AD651A4",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Clear Destination Contents First:",
-          "name" : "label5",
+          "font_size" : 18,
           "font_name" : "<System>"
         },
         "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 177}, {346, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "dummy_ls",
+          "flex" : "WB",
+          "text_color" : "RGBA(0.073257,0.069416,0.091503,1.000000)",
+          "frame" : "{{104, 179}, {150, 32}}",
+          "uuid" : "98EEF298-17BD-44BD-BD04-5C0127697351",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "dummy_ls",
+          "background_color" : "RGBA(0.689655,1.000000,0.959520,1.000000)",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
       }
     ],
     "frame" : "{{0, 0}, {358, 389}}",
     "class" : "View",
     "attributes" : {
-      "custom_class" : "ConfirmView",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "enabled" : true,
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "custom_class" : "ConfirmView",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "flex" : ""
     },
     "selected" : false

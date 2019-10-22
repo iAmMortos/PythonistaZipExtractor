@@ -5,6 +5,9 @@ import os
 import shutil
 from zipfile import ZipFile
 from confirm_view import ConfirmView
+
+import sharedlibs
+sharedlibs.add_path_for('config_file')
 from config_file import ConfigFile
 
 config_path = 'app.config'
